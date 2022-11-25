@@ -1,3 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page import="java.util.*,dto.*" %>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -12,6 +15,9 @@
 		</script>
 	</head>
 	<body>
-		<h4>index.html</h4>
+		<div class="card">
+			<div class="card-header">Home</div>
+			<div class="card-body"></div>
+		</div>	
 	</body>
 </html>
