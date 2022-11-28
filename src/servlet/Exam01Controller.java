@@ -35,7 +35,7 @@ public class Exam01Controller extends HttpServlet {
 		request.setAttribute("list", boards);
 		
 		//JSP로 이동
-		request.getRequestDispatcher("views/exam01_view.jsp").forward(request, response);
+		request.getRequestDispatcher("/WEB-INF/views/exam01_view.jsp").forward(request, response);
 	}
 
 }
