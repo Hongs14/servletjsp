@@ -1,4 +1,4 @@
-<%--page 지시자 --%>
+<%--page 지시자(page와 include는 종류 --%>
 <%@ page contentType="text/html; charset=UTF-8"%>
 
 <%-- include 지시자 --%>
