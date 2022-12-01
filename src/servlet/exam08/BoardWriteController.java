@@ -31,7 +31,7 @@ public class BoardWriteController extends HttpServlet {
 		
 		//서비스로 회원 가입 요청//Service객체를 얻는 것
 		ServletContext application = request.getServletContext();
-		BoardService boardService = (BoardService) application.getAttribute("board Service");
+		BoardService boardService = (BoardService)application.getAttribute("boardService");
 		boardService.write(board);
 		
 		response.sendRedirect("ContentController");
