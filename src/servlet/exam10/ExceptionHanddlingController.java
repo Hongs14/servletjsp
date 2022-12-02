@@ -15,12 +15,12 @@ public class ExceptionHanddlingController extends HttpServlet {
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {	
 		try {
-			String data = "1oo";
+			String data = "abc";
 			int num = Integer.parseInt(data);
-			request.getRequestDispatcher("ContentController").forward(request, response);
+		request.getRequestDispatcher("ContentController").forward(request, response);
 		
 		} catch(Exception e) {
-			request.getRequestDispatcher("WEB-INF/views/exam10/error_500.jsp").forward(request, response);
+			request.getRequestDispatcher("/WEB-INF/views/exam10/error_500.jsp").forward(request, response);
 		}
 	}
 }

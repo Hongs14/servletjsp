@@ -7,10 +7,8 @@
 		content.jsp
 	</div>
 	<div class="card-body">		
-		<a href="/servletjsp/exam10/ExceptionHandlingController" class="btn btn-info btn-sm">try-catch 사용</a>
-		<a href="/servletjsp/exam10/NoExceptionHandlingController" class="btn btn-info btn-sm">web.xml 사용</a>
-	
-		
+		<a href="${pageContext.request.contextPath}/exam08/UserJoinController" class="btn btn-info btn-sm">회원가입</a>
+		<a href="${pageContext.request.contextPath}/exam08/BoardWriteController" class="btn btn-info btn-sm">게시물 쓰기</a>
 	</div>
 </div>
 

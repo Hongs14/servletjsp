@@ -27,7 +27,7 @@ public class CharacterEncodingFilter implements Filter{
 	         throws IOException, ServletException {
 	      
 	      //전처리 
-	      //System.out.println("전처리1 합니다.");
+//		  System.out.println("전처리1 합니다.");
 	      request.setCharacterEncoding(encoding);
 	      	      
 	      //--------------------------------------------------------------------
@@ -35,7 +35,7 @@ public class CharacterEncodingFilter implements Filter{
 	      //--------------------------------------------------------------------
       
 	      //후처리
-	      //System.out.println("후처리1 합니다.");
+//	      System.out.println("후처리1 합니다.");
 	}
 	
 }

@@ -7,9 +7,9 @@
 		content.jsp
 	</div>
 	<div class="card-body">		
-		<a href="/servletjsp/exam04/HtmlResponseController" class="btn btn-info btn-sm">Html 응답 생성</a>
-		<a href="/servletjsp/exam04/JsonResponseController" class="btn btn-info btn-sm">JSON 응답 생성</a>
-		<a href="/servletjsp/exam04/FileResponseController" class="btn btn-info btn-sm">파일 다운로드 응답 생성</a>
+		<a href="${pageContext.request.contextPath}/exam04/HtmlResponseController" class="btn btn-info btn-sm">Html 응답 생성</a>
+		<a href="${pageContext.request.contextPath}/exam04/JsonResponseController" class="btn btn-info btn-sm">JSON 응답 생성</a>
+		<a href="${pageContext.request.contextPath}/exam04/FileResponseController" class="btn btn-info btn-sm">파일 다운로드 응답 생성</a>
 	</div>
 </div>
 
@@ -18,7 +18,7 @@
 		redirect
 	</div>
 	<div class="card-body">		
-		<form method="post" action="/servletjsp/exam04/ContentController">
+		<form method="post" action="${pageContext.request.contextPath}/exam04/ContentController">
 		    <label for="email2" class="mb-2 mr-sm-2">Email:</label>
 		    <input type="text" class="form-control mb-2 mr-sm-2" id="email2" placeholder="Enter email" name="email">
 		    <label for="pwd2" class="mb-2 mr-sm-2">Password:</label>
