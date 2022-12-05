@@ -3,7 +3,7 @@ package util;
 import lombok.Data;
 
 @Data
-public class PagerDto {
+public class Pager {
 	private int totalRows;		//전체 행수(페이징 대상의 행수)
 	private int totalPageNo;	//전체 페이지 수->맨끝 버튼
 	private int totalGroupNo;	//전체 그룹 수
@@ -18,11 +18,11 @@ public class PagerDto {
 	private int endRowNo;		//페이지의 마지막 행 번호->1부터 시작(오라클)
 	private int endRowIndex;	//페이지의 마지막 행 인덱스->0부터 시작(mysql 등)
 	
-	public PagerDto() {
+	public Pager() {
 		
 	}
 
-	public PagerDto(int rowsPerPage, int pagesPerGroup, int totalRows, int pageNo) {
+	public Pager(int rowsPerPage, int pagesPerGroup, int totalRows, int pageNo) {
 		this.rowsPerPage = rowsPerPage;
 		this.pagesPerGroup = pagesPerGroup;
 		this.totalRows = totalRows;
