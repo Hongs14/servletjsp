@@ -6,7 +6,7 @@
 
 <div class="card m-2">
 	<div class="card-header">
-		게시물 쓰기
+		게시물 읽기
 	</div>
 	<div class="card-body">
 		<div>

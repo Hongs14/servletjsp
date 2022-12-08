@@ -29,8 +29,7 @@ public class WebAppContext implements ServletContextListener{
 		
 		application.setAttribute("userService", new UserService(application));
 		application.setAttribute("boardService", new BoardService(application));
-	
-		
+
 		
 	}
 }

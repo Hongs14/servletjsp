@@ -41,6 +41,10 @@ public class WriteController extends HttpServlet {
 			String savedName = new Date().getTime()+"-"+fileName;
 			String fileType = filePart.getContentType();
 			
+			System.out.println(fileName);
+			System.out.println(savedName);
+			System.out.println(fileType);
+			
 			board.setBfileName(fileName);
 			board.setBsavedName(savedName);
 			board.setBfileType(fileType);
